@@ -54,11 +54,6 @@ on boot
     # Wakelock debug
     write /sys/module/wakelock/parameters/debug_mask 7
 
-    # Fast dormancy settings
-    setprop ro.ril.fast.dormancy.rule 1
-    setprop ro.ril.fd.scron.timeout 4
-    setprop ro.ril.fd.scroff.timeout 3
-
 # compass/accelerometer daemon
 service akmd /system/bin/akmd
     user compass
