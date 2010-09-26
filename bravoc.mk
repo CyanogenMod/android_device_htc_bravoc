@@ -38,11 +38,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
    ro.ril.def.preferred.network=4 \
    ro.telephony.default_network=4
 
-
 # AGPS otpions
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ril.def.agps.mode=2 \
-    ro.ril.def.agps.feature=2
+    ro.ril.def.agps.mode=2
 
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number
@@ -116,6 +114,7 @@ PRODUCT_COPY_FILES += \
     device/htc/bravoc/kernel/2.6.35.4-cyanogenmod/kernel/net/ipv6/ipv6.ko:system/lib/modules/2.6.35.4-cyanogenmod/kernel/net/ipv6/ipv6.ko \
     device/htc/bravoc/kernel/2.6.35.4-cyanogenmod/kernel/net/ipv6/ah6.ko:system/lib/modules/2.6.35.4-cyanogenmod/kernel/net/ipv6/ah6.ko \
     device/htc/bravoc/kernel/2.6.35.4-cyanogenmod/kernel/fs/nfs/nfs.ko:system/lib/modules/2.6.35.4-cyanogenmod/kernel/fs/nfs/nfs.ko \
+    device/htc/bravoc/kernel/2.6.35.4-cyanogenmod/kernel/fs/nls/nls_utf8.ko:system/lib/modules/2.6.35.4-cyanogenmod/kernel/fs/nls/nls_utf8.ko \
     device/htc/bravoc/kernel/2.6.35.4-cyanogenmod/kernel/fs/exportfs/exportfs.ko:system/lib/modules/2.6.35.4-cyanogenmod/kernel/fs/exportfs/exportfs.ko \
     device/htc/bravoc/kernel/2.6.35.4-cyanogenmod/kernel/fs/nfsd/nfsd.ko:system/lib/modules/2.6.35.4-cyanogenmod/kernel/fs/nfsd/nfsd.ko \
     device/htc/bravoc/kernel/2.6.35.4-cyanogenmod/kernel/fs/fuse/fuse.ko:system/lib/modules/2.6.35.4-cyanogenmod/kernel/fs/fuse/fuse.ko \
