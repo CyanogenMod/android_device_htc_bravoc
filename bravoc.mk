@@ -30,7 +30,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=true \
     ro.com.google.locationfeatures=1 \
     wifi.interface=eth0 \
-    wifi.supplicant_scan_interval=15
+    wifi.supplicant_scan_interval=15 \
+    ro.cdma.home.operator.numeric=310120 \
+    ro.cdma.home.operator.alpha=Sprint \
+    gsm.sim.operator.numeric=0 \
+    gsm.sim.operator.alpha=0 \
+    gsm.sim.operator.iso-country=0
 
 # Default network type.
 # 0 => WCDMA preferred.
