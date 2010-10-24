@@ -1,4 +1,4 @@
 require mid=P*
-require board=bravoc|desirec
+require board=bravoc
 require version-microp=051e
-require version-baseband=2.05.10.06.29
+require version-baseband=2.05.10.06.29|2.05.10.08.11
