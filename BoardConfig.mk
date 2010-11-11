@@ -81,7 +81,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 TARGET_RECOVERY_UI_LIB := librecovery_ui_bravoc librecovery_ui_htc
 
-TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_htc
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/common
 TARGET_PREBUILT_KERNEL := device/htc/bravoc/kernel/kernel
