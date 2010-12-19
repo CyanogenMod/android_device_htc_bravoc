@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     device/htc/bravoc/bravoc-keypad.kl:system/usr/keylayout/bravoc-keypad.kl \
     device/htc/bravoc/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
     device/htc/bravoc/vold.fstab:system/etc/vold.fstab \
+    device/htc/bravoc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
     device/htc/bravoc/apns-conf.xml:system/etc/apns-conf.xml
 
 # stuff common to all HTC phones
