@@ -97,5 +97,17 @@ PRODUCT_COPY_FILES += \
     device/htc/bravoc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
     device/htc/bravoc/apns-conf.xml:system/etc/apns-conf.xml
 
+PRODUCT_COPY_FILES += \
+    device/htc/bravoc/bcm4329.ko:system/lib/modules/bcm4329.ko
+
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+LOCAL_KERNEL := device/htc/bravoc/kernel
+else
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
 # stuff common to all HTC phones
 $(call inherit-product, device/htc/common/common.mk)
