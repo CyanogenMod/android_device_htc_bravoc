@@ -82,7 +82,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.bravoc \
     lights.bravoc \
-    librs_jni
+    librs_jni \
+    gralloc.qsd8k \
+    copybit.qsd8k \
+    bravoc-keypad.kcm \
+    gps.bravoc
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
