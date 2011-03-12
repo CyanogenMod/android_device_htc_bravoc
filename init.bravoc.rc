@@ -83,4 +83,3 @@ service hciattach /system/bin/brcm_patchram_plus --enable_hci --enable_lpm \
     disabled
 
 service dspcrashd /system/bin/dspcrashd
-
