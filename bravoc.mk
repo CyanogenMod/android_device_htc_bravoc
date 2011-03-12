@@ -86,7 +86,9 @@ PRODUCT_PACKAGES += \
     gralloc.qsd8k \
     copybit.qsd8k \
     bravoc-keypad.kcm \
-    gps.bravoc
+    gps.bravoc \
+    libOmxCore \
+    libOmxVidEnc
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
