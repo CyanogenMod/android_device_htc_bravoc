@@ -31,6 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1 \
     wifi.interface=eth0 \
     wifi.supplicant_scan_interval=15 \
+    mobiledata.interfaces=rmnet0,rmnet1,rmnet2 \
     ro.cdma.home.operator.numeric=310120 \
     ro.cdma.home.operator.alpha=Sprint \
     gsm.sim.operator.numeric=0 \
