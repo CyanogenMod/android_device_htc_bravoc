@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
     bravoc-keypad.kcm \
     gps.bravoc \
     libOmxCore \
-    libOmxVidEnc
+    libOmxVidEnc \
+    libOmxVdec
 
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
