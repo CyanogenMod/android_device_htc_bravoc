@@ -63,6 +63,10 @@ $(call inherit-product-if-exists, vendor/htc/bravoc/bravoc-vendor.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.media.dec.jpeg.memcap=20000000
 
+# Don't set /proc/sys/vm/dirty_ratio to 0 when USB mounting
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vold.umsdirtyratio=20
+
 DEVICE_PACKAGE_OVERLAYS += device/htc/bravoc/overlay
 
 PRODUCT_COPY_FILES += \
